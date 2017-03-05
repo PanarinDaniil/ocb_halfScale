@@ -1,0 +1,27 @@
+@import "main-site-variables";
+@import "fonts";
+@import "compass";
+@import "compass/reset";
+@import "mixins";
+@import "ico-font";
+
+html{
+	min-height: 100%;
+}
+body{
+	min-height:100%;
+}
+.animate, a {
+    @include transition($transition);
+}
+*, *:after, *:before {
+    @include box-sizing(border-box);
+}
+.clear:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.flex{
+    @include flex();
+}
