@@ -25,3 +25,73 @@ body{
 .flex{
     @include flex();
 }
+
+/*HEADER*/
+.mob-btn{
+    display:none;
+    position:absolute;
+    top:15px;
+    right:5px;
+    width:58px;
+    height:44px;
+    background:transparent;
+    padding:19px 11px 20px;
+    @include appearance(none);
+    @include bp( m ){
+		display:block;
+	}
+    &:hover{
+        div{
+        	background:$main-yellow;
+        	&:before,
+	        &:after{
+	        	background:$main-yellow;
+	        }
+        }
+    }
+    &.active{
+        div{
+            background:transparent;
+            &:before,
+            &:after{
+                @include transition-delay(0s,.3s);
+            }
+            &:before{
+                top:0px;
+                @include transform(rotate(45deg));
+            }
+            &:after{
+                bottom:0px;
+                @include transform(rotate(-45deg));
+            }
+        }
+    }
+    div{
+        text-indent:-9999px;
+        height:5px;
+        display:block;
+        background:$main-yellow;
+        position:relative;
+        @include transition(background 0.3s 0s);
+        &:before,
+        &:after{
+            position:absolute;
+            content:"";
+            left:0;
+            right:0;
+            height:5px;
+            z-index:1;
+            background:$main-yellow;
+            @include transition-delay(.3s, 0s, 0s);
+            @include transition-duration(.3s, .3s, .3s);
+        }
+        &:before{
+            top:-9px;
+            @include transition-property(top,transform, background);
+        }
+        &:after{
+            bottom:-9px;
+            @include transition-property(bottom,transform, background);
+        }
+    }
+}
