@@ -2227,16 +2227,52 @@ p {
   max-width: 100%;
 }
 .top-slider .slick-dots {
-  bottom: 0;
+  bottom: 25%;
+}
+.top-slider .slick-dots li {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+}
+.top-slider .slick-dots li.slick-active button, .top-slider .slick-dots li:hover button {
+  background: #fff;
+}
+.top-slider .slick-dots li + li {
+  margin-left: 18px;
+}
+.top-slider .slick-dots li button {
+  border: 2px solid #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: transparent;
+}
+.top-slider .slick-dots li button:before {
+  display: none;
 }
 .top-slider .slide-info {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 30%;
   width: 33.3333%;
   margin: 0 auto;
   text-align: center;
+  color: #fff;
+}
+.top-slider .slide-info .title {
+  font: 700 400px/0.77 "Roboto Slab", serif;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+}
+.top-slider .slide-info .sub-title {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 /*FIRST Block*/
@@ -2245,7 +2281,7 @@ p {
 }
 .first-main-wrap .content-wrap {
   background: #ff0000;
-  margin: 0 -150px;
+  margin: 0 -200px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -2257,12 +2293,12 @@ p {
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
-.first-main-wrap .content {
+.first-main-wrap .content-box {
   -webkit-transform: rotate(10deg);
   -moz-transform: rotate(10deg);
   -o-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
   transform: rotate(10deg);
   color: #000;
-  padding: 20px 200px 20px 200px;
+  margin: 20px 177px 20px 223px;
 }
