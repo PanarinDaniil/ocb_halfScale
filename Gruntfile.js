@@ -3,22 +3,22 @@ module.exports = function (grunt) {
 	    pkg: grunt.file.readJSON('package.json'),
 
 	    compass: {
-		    prod: {
-		        src: 'scss',
-		        dest: 'css',
-		        forcecompile: false,
-		        debugsass: false,
-		        linecomments: false
-		    }
+	    	dev: {
+			    options: {
+			        sassDir: 'scss',
+			        cssDir: 'css',
+			        environment: 'production'
+		    	}
+	    	}
 		},
  
 	    watch: {
 	    	files: [ 'scss/*.scss' ],
-    		tasks: [ 'compass:prod' ]
+    		tasks: [ 'compass' ]
 	    }
 	});
 
-	grunt.loadNpmTasks('grunt-compass');
+	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
  
 	grunt.registerTask('default', [ 'compass', 'watch']);

@@ -427,7 +427,7 @@ p{
     .img-wrap{
         width:55%;
         float:left;
-        margin-top:-166px;
+        margin-top:-68px;
         -webkit-box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
         -moz-box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
         box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
@@ -440,6 +440,23 @@ p{
         float:right;
         margin-left:8%;
         width:37%;
+    }
+    .title-number{
+        line-height:1;
+        .number{
+            display:inline-block;
+            vertical-align:bottom;
+            font:700 italic 94px/1 "Roboto Slab", serif;
+            color:#db4343;
+            letter-spacing:-0.5px;
+        }
+        .title{
+            display:inline-block;
+            vertical-align:bottom;
+            font:400 36px/1 "Roboto", serif;
+            color:#2f2f2f;
+            letter-spacing:1px;
+        }
     }
 }
 @import "footer";
