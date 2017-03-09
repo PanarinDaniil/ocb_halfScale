@@ -317,7 +317,6 @@ p{
                 }
             }
         }
-
     }
     .slide-info{
         position:absolute;
@@ -402,7 +401,7 @@ p{
 .first-main-wrap{
     margin-top:-50px;
     .content-wrap{
-        background:#ff0000;
+        background:#fff;
         margin:0 -200px;
         -webkit-transform-origin:left center;
         -moz-transform-origin:left center;
@@ -424,6 +423,9 @@ p{
         color:#000;
         margin:20px 177px 20px 223px;
     }
+    .content{
+        padding-bottom:190px;
+    }
     .img-wrap{
         width:55%;
         float:left;
@@ -442,7 +444,7 @@ p{
         width:37%;
     }
     .title-number{
-        line-height:1;
+        margin-bottom:45px;
         .number{
             display:inline-block;
             vertical-align:bottom;
@@ -450,13 +452,65 @@ p{
             color:#db4343;
             letter-spacing:-0.5px;
         }
-        .title{
+        .title-num{
             display:inline-block;
             vertical-align:bottom;
-            font:400 36px/1 "Roboto", serif;
+            font:400 36px/45px "Roboto", sans-serif;
             color:#2f2f2f;
             letter-spacing:1px;
         }
+    }
+    .title{
+        color:#2f2f2f;
+        font:600 58px/78px "Roboto", sans-serif;
+        position:relative;
+        text-transform:uppercase;
+        padding-bottom:32px;
+        margin-bottom:76px;
+        &:after{
+            position:absolute;
+            display:block;
+            content:"";
+            background:#dadada;
+            bottom:0;
+            height:2px;
+            left:0;
+            width:140px;
+        }
+    }
+    .descr-wrap{
+        color:#2f2f2f;
+        font:400 36px/52px "Roboto", sans-serif;
+    }
+}
+.second-main-wrap{
+    // margin-top:-50px;
+    .content-wrap{
+        background:#e6e6e6;
+        margin:0 -200px;
+        -webkit-transform-origin:left center;
+        -moz-transform-origin:left center;
+        -o-transform-origin:left center;
+        -ms-transform-origin:left center;
+        transform-origin:left center;
+        -webkit-transform:rotate(10deg);
+        -moz-transform:rotate(10deg);
+        -o-transform:rotate(10deg);
+        -ms-transform:rotate(10deg);
+        transform:rotate(10deg);
+    }
+    .content-box{
+        -webkit-transform:rotate(-10deg);
+        -moz-transform:rotate(-10deg);
+        -o-transform:rotate(-10deg);
+        -ms-transform:rotate(-10deg);
+        transform:rotate(-10deg);
+        color:#000;
+        margin:20px 177px 20px 223px;
+    }
+    .content{
+        padding-bottom:150px;
+        padding-top:150px;
     }
 }
 @import "footer";
