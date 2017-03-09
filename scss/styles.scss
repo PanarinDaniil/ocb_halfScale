@@ -442,9 +442,12 @@ p{
         color:#000;
         margin:20px 177px 20px 223px;
     }
-    .content{
+    /*.content{
         padding-bottom:190px;
-    }
+        @media (max-width:1500px) {
+            padding-bottom:0;
+        }
+    }*/
     .img-wrap{
         width:55%;
         float:left;
@@ -452,6 +455,18 @@ p{
         -webkit-box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
         -moz-box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
         box-shadow:-15px 0px 65px 65px rgba(47,47,47,0.7);
+        @media (max-width:1500px) {
+            width:45%;
+        }
+        @media (max-width:1200px) {
+            width:80%;
+            max-width:700px;
+            margin:-68px auto 60px;
+            float:none;
+            -webkit-box-shadow:0px 0px 35px 9px rgba(47,47,47,0.5);
+            -moz-box-shadow:0px 0px 35px 9px rgba(47,47,47,0.5);
+            box-shadow:0px 0px 35px 9px rgba(47,47,47,0.5);
+        }
         img{
             display:block;
             max-width:100%;
@@ -461,6 +476,15 @@ p{
         float:right;
         margin-left:8%;
         width:37%;
+        @media (max-width:1500px) {
+            width:47%;
+        }
+        @media (max-width:1200px) {
+            width:100%;
+            max-width:700px;
+            margin:0 auto;
+            float:none;
+        }
     }
     .title{
         color:#2f2f2f;
@@ -469,6 +493,16 @@ p{
         text-transform:uppercase;
         padding-bottom:32px;
         margin-bottom:76px;
+        @media (max-width:2459px) {
+            font-size:40px;
+            line-height:65px;
+            padding-bottom:25px;
+            margin-bottom:50px;
+        }
+        @media (max-width:550px){
+            font-size:27px;
+            line-height:45px;
+        }
         &:after{
             position:absolute;
             display:block;
@@ -480,9 +514,14 @@ p{
             width:140px;
         }
     }
-    .descr-wrap{
+    .descr-wrap,
+    .descr-wrap p{
         color:#2f2f2f;
         font:400 36px/52px "Roboto", sans-serif;
+        @media (max-width:2459px) {
+            font-size:28px;
+            line-height:1.4;
+        }
     }
 }
 .second-main-wrap{
@@ -589,12 +628,26 @@ p{
         width:23.5%;
         margin-left:2%;
         margin-bottom:155px;
+        @media (max-width:1300px){
+            width:48%;
+            margin-left:0;
+        }
+        @media (max-width:800px){
+            width:100%!important;
+            margin:0!important;
+        }
         &:nth-child(4n-3){
             margin-left:0;
+        }
+        &:nth-child(even){
+            @media (max-width:1300px){
+                margin-left:4%;
+            }
         }
         img{
             display:block;
             max-width:100%;
+            margin:0 auto;
         }
     }
     .img-wrap{
