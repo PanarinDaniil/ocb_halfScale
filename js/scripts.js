@@ -8,4 +8,16 @@ $(document).ready(function(){
         $(".mob-btn").removeClass("active");
         $(".layout, .top-nav").hide('fast');
     });
+
+    if ( $(".top-slider").length ) {
+        $('.top-slider').slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            arrows: false,
+            autoplaySpeed: 10000,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    }
 });
