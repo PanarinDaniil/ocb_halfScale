@@ -1,37 +1,37 @@
 /*FOOTER*/
 .footer{
-    // margin-top:-50px;
+    margin-top:-125px;
     .content-wrap{
 	    background:#2f2f2f;
-        margin:0 -200px;
+        margin:0 -280px;
+        padding-top:200px;
+        padding-bottom:120px;
         -webkit-transform-origin:left center;
         -moz-transform-origin:left center;
         -o-transform-origin:left center;
         -ms-transform-origin:left center;
         transform-origin:left center;
-        -webkit-transform:rotate(10deg);
-        -moz-transform:rotate(10deg);
-        -o-transform:rotate(10deg);
-        -ms-transform:rotate(10deg);
-        transform:rotate(10deg);
-        padding-top:200px;
-       
+        -webkit-transform:rotate(9deg);
+        -moz-transform:rotate(9deg);
+        -o-transform:rotate(9deg);
+        -ms-transform:rotate(9deg);
+        transform:rotate(9deg);
     }
     .content-box{
-        -webkit-transform:rotate(-10deg);
-        -moz-transform:rotate(-10deg);
-        -o-transform:rotate(-10deg);
-        -ms-transform:rotate(-10deg);
-        transform:rotate(-10deg);
-        color:#000;
-        margin:20px 177px 20px 223px;
-        font-family:"Roboto", sans-serif;
+        -webkit-transform:rotate(-9deg);
+        -moz-transform:rotate(-9deg);
+        -o-transform:rotate(-9deg);
+        -ms-transform:rotate(-9deg);
+        transform:rotate(-9deg);
+        margin:0px 277px 0px 323px;
+        @media (max-width:1000px){
+            margin:0px 275px 0px 323px;
+        }
     }
     .top-footer{
         padding-bottom:220px;
         overflow:hidden;
         position:relative;
-       
     }
     .top-footer::after{
         content:"";
@@ -110,7 +110,6 @@
         position:absolute;
         display:block;
         border-radius:50%;
-        background:#fff;
         top:-13px;
         left:50%;
         width:8.8%;

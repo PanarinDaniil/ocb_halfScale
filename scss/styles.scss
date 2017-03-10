@@ -932,7 +932,7 @@ p{
 }
 .fifth-main-wrap{
     position:relative;
-    &:after{
+    .back-img{
         position:absolute;
         display:block;
         content:"";
@@ -945,13 +945,14 @@ p{
         -o-transform:rotate(-9deg);
         -ms-transform:rotate(-9deg);
         transform:rotate(-9deg);
-        background:url(../images/back.jpg) no-repeat;
-        background-size:cover;
+        @media (max-width:1000px){
+            width:80%;
+        }
     }
     &.content-wrap{
         overflow:hidden;
         background:#e6e6e6;
-        margin:0 -480px 0;
+        margin:-240px -480px 0;
         -webkit-transform-origin:left center;
         -moz-transform-origin:left center;
         -o-transform-origin:left center;
@@ -962,6 +963,9 @@ p{
         -o-transform:rotate(9deg);
         -ms-transform:rotate(9deg);
         transform:rotate(9deg);
+        @media (max-width:1000px){
+            margin-top:-320px;
+        }
     }
     .content-box{
         position:relative;
@@ -976,13 +980,19 @@ p{
         @media (max-width:1500px){
             margin:0px 466px 0px 495px;
         }
-        @media (max-width:550px){
+        @media (max-width:500px){
             margin:20px 475px 20px 500px;
         }
     }
     .content{
         position:relative;
         padding:250px 0;
+        @media (max-width:1000px){
+            padding:90px 0 250px;
+        }
+        @media (max-width:500px){
+            padding:30px 0 200px;
+        }
     }
     .left-img{
         float:left;
@@ -998,6 +1008,16 @@ p{
         width:50%;
         padding-left:8.5%;
         padding-right:20px;
+        @media (max-width:1000px){
+            float:none;
+            width:90%;
+            margin:0 auto;
+            padding:30px 40px;
+            background:rgba(255,255,255,.8);
+        }
+        @media (max-width:500px){
+            width:100%;
+        }
     }
     .title-number{
         margin-bottom:62px;
@@ -1016,6 +1036,9 @@ p{
             @media (max-width:1500px){
                 font-size:26px;
                 line-height:1.4;
+                margin-bottom:35px;
+            }
+            @media (max-width:500px){
                 margin-bottom:35px;
             }
         }
@@ -1117,23 +1140,3 @@ p{
     }
 }
 @import "footer";
-.footer{
-    margin-top:-125px;
-    .content-wrap{
-        margin:0 -280px;
-        -webkit-transform: rotate(9deg);
-        -moz-transform: rotate(9deg);
-        -o-transform: rotate(9deg);
-        -ms-transform: rotate(9deg);
-        transform: rotate(9deg);
-    }
-    .content-box {
-        -webkit-transform: rotate(-9deg);
-        -moz-transform: rotate(-9deg);
-        -o-transform: rotate(-9deg);
-        -ms-transform: rotate(-9deg);
-        transform: rotate(-9deg);
-        color: #000;
-        margin:20px 177px 20px 223px;
-    }
-}
