@@ -973,13 +973,16 @@ p{
         transform:rotate(-9deg);
         color:#000;
         margin:0px 460px 0px 480px;
+        @media (max-width:1500px){
+            margin:0px 466px 0px 495px;
+        }
         @media (max-width:550px){
             margin:20px 475px 20px 500px;
         }
     }
     .content{
         position:relative;
-        top:-137px;
+        padding:250px 0;
     }
     .left-img{
         float:left;
@@ -993,6 +996,29 @@ p{
     .right-block{
         float:right;
         width:50%;
+        padding-left:8.5%;
+        padding-right:20px;
+    }
+    .title-number{
+        margin-bottom:62px;
+        @media (max-width:1500px){
+            margin-bottom:35px;
+        }
+        .title-num{
+            @media (max-width:1500px){
+                margin-left:0;
+            }
+        }
+    }
+    .description{
+        p{
+            margin-bottom:62px;
+            @media (max-width:1500px){
+                font-size:26px;
+                line-height:1.4;
+                margin-bottom:35px;
+            }
+        }
     }
 }
 /*btn*/
@@ -1094,6 +1120,7 @@ p{
 .footer{
     margin-top:-125px;
     .content-wrap{
+        margin:0 -280px;
         -webkit-transform: rotate(9deg);
         -moz-transform: rotate(9deg);
         -o-transform: rotate(9deg);
