@@ -11,18 +11,10 @@
         -o-transform-origin:left center;
         -ms-transform-origin:left center;
         transform-origin:left center;
-        -webkit-transform:rotate(9deg);
-        -moz-transform:rotate(9deg);
-        -o-transform:rotate(9deg);
-        -ms-transform:rotate(9deg);
-        transform:rotate(9deg);
+        @include transform(rotate(9deg));
     }
     .content-box{
-        -webkit-transform:rotate(-9deg);
-        -moz-transform:rotate(-9deg);
-        -o-transform:rotate(-9deg);
-        -ms-transform:rotate(-9deg);
-        transform:rotate(-9deg);
+        @include transform(rotate(-9deg));
         margin:0px 277px 0px 323px;
         @media (max-width:1000px){
             margin:0px 275px 0px 323px;
