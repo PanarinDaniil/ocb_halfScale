@@ -1,4 +1,9 @@
 .top-slider{
+    &.news{
+        .slick-dots{
+            bottom:21%;
+        }
+    }
     .slick-list{
         overflow:visible;
     }
