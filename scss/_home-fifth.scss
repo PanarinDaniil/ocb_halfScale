@@ -3,7 +3,7 @@
     &.content-wrap{
         overflow:hidden;
         background:#e6e6e6;
-        margin:-315px -480px 0;
+        margin:-497px -480px 0;
         -webkit-transform-origin:left center;
         -moz-transform-origin:left center;
         -o-transform-origin:left center;
@@ -48,9 +48,9 @@
     }
     .content{
         position:relative;
-        padding:279px 0 302px;
+        padding:144px 0 302px;
         @media (max-width:1000px){
-            padding:90px 0 250px;
+            padding:90px 0 238px;
         }
         @media (max-width:500px){
             padding:30px 0 200px;
@@ -73,9 +73,9 @@
         }
     }
     .title-number{
-        margin-bottom:57px;
+        margin-bottom:29px;
         @media (max-width:1500px){
-            margin-bottom:35px;
+           
         }
         .title-num{
             @media (max-width:1500px){
@@ -85,14 +85,16 @@
     }
     .description{
         p{
-            margin-bottom:52px;
+            margin-bottom:26px;
+            font-size:18px;
+            line-height:26px;
             @media (max-width:1500px){
-                font-size:26px;
-                line-height:1.4;
-                margin-bottom:35px;
+               
+                
+               
             }
             @media (max-width:500px){
-                margin-bottom:35px;
+                
             }
         }
     }
