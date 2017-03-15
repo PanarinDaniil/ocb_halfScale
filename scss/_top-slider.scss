@@ -21,13 +21,13 @@
         width:100%;
     }
     .slick-dots{
-        bottom:31.5%;
+        bottom:36.5%;
         @media (max-width:650px){
             display:none!important;
         }
         li{
-            width:22px;
-            height:22px;
+            width:11px;
+            height:11px;
             margin:0;
             &.slick-active,
             &:hover{
@@ -39,7 +39,9 @@
                 margin-left:18px;
             }
             button{
-                border:2px solid #fff;
+                border:1px solid #fff;
+                height: 10px;
+                width: 10px;
                 @include border-radius(50%);
                 background:transparent;
                 &:before{
@@ -53,13 +55,13 @@
         left:0;
         right:0;
         bottom:28.5%;
-        width:80%;
-        max-width:860px;
+        width:25%;
+        max-width:460px;
         margin:0 auto;
         text-align:center;
         color:#fff;
-        border-top:2px solid rgba(255,255,255,.3);
-        border-bottom:2px solid rgba(255,255,255,.3);
+        border-top:1px solid rgba(255,255,255,.3);
+        border-bottom:1px solid rgba(255,255,255,.3);
         @media (max-width:1200px){
             width:420px;
         }
@@ -117,7 +119,7 @@
             width:330px;
         }
         .title{
-            font:700 400px/0.77 "Roboto Slab", serif;
+            font:700 200px/0.77 "Roboto Slab", serif;
             letter-spacing:-0.5px;
             margin-bottom:50px;
             @media (max-width:1200px){
@@ -133,15 +135,15 @@
             }
         }
         .sub-title{
-            font-size:58px;
+            font-size:30px;
             line-height:1;
             letter-spacing:1px;
             font-weight:600;
             text-transform:uppercase;
-            max-width:300px;
+            max-width:200px;
             margin:0 auto;
             @media (max-width:1200px){
-                font-size:40px;
+                
             }
             @media (max-width:768px){
                 font-size:25px;

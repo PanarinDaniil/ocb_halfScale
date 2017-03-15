@@ -31,7 +31,7 @@
     .img-wrap{
         width:57%;
         float:left;
-        margin-top:-212px;
+        margin-top:-77px;
         @include box-shadow(0px 0px 65px 0px rgba(47, 47, 47, 0.75));
         @media (max-width:1900px) {
             margin-top:-50px;
@@ -52,7 +52,7 @@
         }
     }
     .title-number{
-        margin-bottom:41px;
+        margin-bottom:20px;
     }
     .info-wrap{
         float:right;
@@ -71,16 +71,14 @@
     }
     .title{
         color:#2f2f2f;
-        font:600 58px/78px "Roboto", sans-serif;
+        font:600 30px/38px "Roboto", sans-serif;
         position:relative;
         text-transform:uppercase;
-        padding-bottom:29px;
-        margin-bottom:68px;
+        padding-bottom:18px;
+        margin-bottom:34px;
         @media (max-width:2459px) {
-            font-size:40px;
-            line-height:65px;
-            padding-bottom:25px;
-            margin-bottom:50px;
+           
+           
         }
         @media (max-width:550px){
             font-size:27px;
@@ -92,21 +90,20 @@
             content:"";
             background:#dadada;
             bottom:0;
-            height:2px;
+            height:1px;
             left:0;
-            width:140px;
+            width:70px;
         }
     }
     .descr-wrap,
     .descr-wrap p{
         color:#2f2f2f;
-        font:400 36px/52px "Roboto", sans-serif;
+        font:400 18px/1.4 "Roboto", sans-serif;
         @media (max-width:2459px) {
-            font-size:28px;
-            line-height:1.4;
+         
         }
         @media (max-width:500px) {
-            font-size:22px;
+           
         }
     }
 }

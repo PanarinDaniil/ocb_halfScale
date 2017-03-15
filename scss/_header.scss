@@ -4,7 +4,7 @@
     z-index:30;
     @include box-shadow(0px 0px 65px 0px rgba(47, 47, 47, 0.75));
     @media (max-width:1950px) {
-        padding:45px 0 30px;
+        padding:45px 0 20px;
     }
     @media (max-width:1399px) {
         padding:20px 0 0px;
@@ -62,7 +62,7 @@
         -webkit-transform:translate(-50%, 0);
         transform:translate(-50%, 0);
         @media (max-width:1920px) {
-            top:-4px;
+            top:-9px;
         }
         @media (max-width:1399px) {
             top:-12px;
@@ -95,11 +95,11 @@
         background:#fff;
     }
     *{
-        line-height:48px;
+        line-height:24px;
         letter-spacing:1px;
-        font-size:36px;
+        font-size:18px;
         @media (max-width:2459px) {
-            font-size:28px;
+            font-size:18px;
         }
         @media (max-width:1399px) {
             font-size:20px;
