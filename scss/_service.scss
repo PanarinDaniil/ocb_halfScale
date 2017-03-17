@@ -87,7 +87,8 @@
 			padding-bottom:450px;
 		    padding-top:80px;
 		    @media (max-width:1200px){
-				
+				padding-bottom:200px;
+			    padding-top:80px;
 		    }
 		}
 	}
@@ -98,9 +99,15 @@
 			@media (max-width:1500px){
 				margin-top:-200px;
 			}
+			@media (max-width:1200px){
+			    margin-top:-60px;
+			}
 			.content{
 				border:none;
 				top:0;
+				@media (max-width:1200px){
+				    padding-top:100px;
+				}
 			}
 			.title-number{
 				width:62%;

@@ -1,5 +1,5 @@
 .news-wrap{
-	margin-bottom:208px;
+	margin-bottom:105px;
 	@media (max-width:800px){
 		margin-bottom:100px;
 	}
@@ -20,7 +20,7 @@
 		}
 	}
 	.content{
-		padding-top:200px;
+		padding-top:93px;
 	    padding-bottom:15px;
 	}
 }
@@ -37,10 +37,10 @@
 		.date{
 			width:13%;
 			@media (max-width:2000px){
-	            width:25%;
+	           
 	        }
 	        @media (max-width:1500px){
-	            width:18%;
+	           
 	        }
 	        @media (max-width:1000px){
 	            float:none;
@@ -77,24 +77,23 @@
 		.art-info{
 			width:87%;
 			@media (max-width:2000px){
-	            width:73%;
+	           
 	        }
 	        @media (max-width:1500px){
-	            width:80%;
+	            
 	        }
 	        @media (max-width:1000px){
 	            float:none;
 	            width:100%;
 	        }
 			.art-title{
-				font-size:55px;
-			    margin-bottom:31px;
+				font-size:28px;
+			    margin-bottom:14px;
 			    max-width:840px;
 			    display:block;
 			    margin-top:1px;
 			    @media (max-width:1500px){
-	                font-size:38px;
-	                line-height:45px;
+	                
 	                margin-bottom:20px;
 	            }
 	            @media (max-width:800px){
@@ -102,31 +101,30 @@
 	            }
 			}
 			.blog-title{
-			    font-size:26px;
-		        margin-bottom:51px;
+			    font-size:14px;
+		        margin-bottom:25px;
 		        @media (max-width:1500px){
-	                font-size:25px;
-	                margin-bottom:30px;
+	               
+	                
 	            }
 			}
 			.art-descr{
-			    font-size:33px;
+			    font-size:16px;
+			    line-height:1.7;
 			    @media (max-width:1500px){
-		            font-size:20px;
-		            line-height:29px;
+		            
 		        }
 			}
 		}
 	}
 	.slick-prev,
 	.slick-next{
-	    right:-202px;
-	    top:-258px;
-	    width:42px;
-	    height:60px;
+	    right:-131px;
+	    top:-128px;
+	    width:24px;
+	    height:30px;
 	    @media (max-width:1200px){
-			top:-110px;
-			right:20%;
+			
 	    }
 	    &:after,
 	    &:before{
@@ -138,14 +136,14 @@
 	    &:before{
 	    	top:50%;
 	    	margin-top:-1px;
-	    	height:2px;
+	    	height:1px;
 	    	background:#db4343;
 	    }
 	    &:after{
 		    opacity:1;
 		    z-index:2;
 		    top:50%;
-			margin-top:-10px;
+			margin-top:-5px;
 	        border-style:inset;
 	        border-style:solid;
 	    }
@@ -157,7 +155,7 @@
 	}
 	.slick-prev{
 	    left:auto;
-		right:-102px;
+		right:-84px;
 		@media (max-width:1200px){
 			right:auto;
 			left:20%;
@@ -168,7 +166,7 @@
 		}
 		&:after{
 			left:0;
-			border-width:10px 20px 10px 0;
+			border-width:5px 10px 5px 0;
 	        border-color:transparent #db4343 transparent transparent;
 		}
 		&:hover{
@@ -184,7 +182,7 @@
 		}
 		&:after{
 			right:0;
-			border-width:10px 0 10px 20px;
+			border-width:5px 0 5px 10px;
 	        border-color:transparent transparent transparent #db4343;
 		}
 		&:hover{
@@ -196,9 +194,9 @@
 }
 .news{
 	&.articles-wrap{
-		padding-bottom:396px;
+		padding-bottom:198px;
 		@media (max-width:1500px){
-			padding-bottom:200px;
+			
 		}
 	}
 	.article-item{
@@ -211,8 +209,8 @@
 		}
 		.art-info{
 			.art-title{
-			    font-size:54px;
-			    margin-bottom:31px;
+			    font-size:26px;
+			    margin-bottom:18px;
 			    margin-top:-2px;
 			    display:block;
 				@media (max-width:1500px){
@@ -225,14 +223,13 @@
 	            }
 			}
 			.blog-title{
-		        font-size:27px;
-			    margin-bottom:52px;
+		        font-size:14px;
+			    margin-bottom:25px;
 			}
 			.art-descr{
-				font-size:34px;
+				font-size:16px;
 				@media (max-width:1500px){
-					font-size:20px;
-				    line-height:29px;
+					
 				}
 			}
 		}
@@ -240,7 +237,7 @@
 	.article-preview{
 		.article-item{
 			&:last-child{
-			    margin-bottom:297px;
+			 
 			    @media (max-width:800px){
 					margin-bottom:110px;
 			    }
