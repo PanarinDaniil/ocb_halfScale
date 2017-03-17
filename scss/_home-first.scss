@@ -76,10 +76,6 @@
         text-transform:uppercase;
         padding-bottom:18px;
         margin-bottom:34px;
-        @media (max-width:2459px) {
-           
-           
-        }
         @media (max-width:550px){
             font-size:27px;
             line-height:45px;
@@ -99,11 +95,5 @@
     .descr-wrap p{
         color:#2f2f2f;
         font:400 18px/1.4 "Roboto", sans-serif;
-        @media (max-width:2459px) {
-         
-        }
-        @media (max-width:500px) {
-           
-        }
     }
 }

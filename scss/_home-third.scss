@@ -88,9 +88,6 @@
         @media (max-width:2459px) {
             margin-top:-750px;
         }
-        @media (max-width:2000px) {
-           
-        }
         @media (max-width:1200px) {
             margin-top:-480px;
         }
@@ -108,8 +105,7 @@
     -ms-user-select:initial;
     user-select:initial;
     @media (max-width:1300px){
-     
-     justify-content:center;
+        justify-content:center;
     }
     @media (max-width:800px){
         display:block;
@@ -128,7 +124,6 @@
         }
         @media (max-width:1300px){
             width:30%;
-           
             margin-bottom:80px;
         }
         @media (max-width:800px){
@@ -138,11 +133,6 @@
             margin-left:0;
             @media (max-width:1300px){
                 margin-left: 2.4%;
-            }
-        }
-        &:nth-child(even){
-            @media (max-width:1300px){
-               
             }
         }
         img{

@@ -99,9 +99,6 @@
             letter-spacing:1px;
             text-transform:uppercase;
             @include transition($transition);
-            @media (max-width:2459px) {
-                
-            }
             @media (max-width:768px){
                 font-size:30px;
                 line-height:35px;
@@ -115,9 +112,6 @@
             max-width:685px;
             margin:0 auto;
             @include transition($transition);
-            @media (max-width:2459px) {
-                
-            }
             @media (max-width:768px){
                 display:block;
                
@@ -131,12 +125,6 @@
         width:50%;
         max-width:1140px;
         @include box-shadow(0px 0px 65px 0px rgba(47, 47, 47, 0.75));
-        @media (max-width:1900px) {
-           
-        }
-        @media (max-width:1500px){
-          
-        }
         @media (max-width:1200px){
             width:90%;
             float:none;
@@ -162,9 +150,6 @@
         right:-33px;
         width:66.666667%;
         max-width:1540px;
-        @media (max-width:1900px) {
-            
-        }
         @media (max-width:1200px){
             width:90%;
             float:none;
@@ -188,12 +173,6 @@
         max-width:1140px;
         z-index:2;
         @include box-shadow(0px 0px 65px 0px rgba(47, 47, 47, 0.75));
-        @media (max-width:1900px) {
-           
-        }
-        @media (max-width:1500px) {
-            
-        }
         @media (max-width:1200px){
             top:auto;
             right:auto;
@@ -219,13 +198,6 @@
         left:8.333333%;
         width:40.1709%;
         max-width:940px;
-        @media (max-width:1900px) {
-           
-        }
-        @media (max-width:1500px) {
-          
-           
-        }
         @media (max-width:1200px){
             top:auto;
             left:auto;
@@ -248,12 +220,6 @@
         top:-320px;
         width:50%;
         max-width:1140px;
-        @media (max-width:1900px) {
-            
-        }
-        @media (max-width:1500px) {
-          
-        }
         @media (max-width:1200px) {
             top:auto;
             left:auto;
@@ -274,15 +240,6 @@
         bottom:366px;
         left:93px;
         text-align:left;
-        @media (max-width:2459px) {
-            
-        }
-        @media (max-width:1900px) {
-            
-        }
-        @media (max-width:1500px) {
-           
-        }
         @media (max-width:1200px) {
             position:static;
             text-align:center;

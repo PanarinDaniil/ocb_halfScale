@@ -60,9 +60,6 @@
         letter-spacing:0.5px;
         text-transform:uppercase;
         color:#ffffff;
-        @media (max-width:800px){
-           
-        }
         &:before,
         &:after{
             position:absolute;
@@ -84,9 +81,6 @@
         &:after{
             right:-25px;
             width:15px;
-            @media (max-width:800px){
-                
-            }
         }
     }
 }
