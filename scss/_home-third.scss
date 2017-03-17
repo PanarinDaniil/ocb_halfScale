@@ -107,6 +107,10 @@
     -moz-user-select:initial;
     -ms-user-select:initial;
     user-select:initial;
+    @media (max-width:1300px){
+     
+     justify-content:center;
+    }
     @media (max-width:800px){
         display:block;
         max-width:540px;
@@ -122,10 +126,9 @@
         &:nth-child-last(4){
             margin-bottom:130px;
         }
-
         @media (max-width:1300px){
-            width:48%;
-            margin-left:0;
+            width:30%;
+           
             margin-bottom:80px;
         }
         @media (max-width:800px){
@@ -133,10 +136,13 @@
         }
         &:nth-child(4n-3){
             margin-left:0;
+            @media (max-width:1300px){
+                margin-left: 2.4%;
+            }
         }
         &:nth-child(even){
             @media (max-width:1300px){
-                margin-left:4%;
+               
             }
         }
         img{
