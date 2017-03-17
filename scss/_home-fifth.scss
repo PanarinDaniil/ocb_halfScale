@@ -26,6 +26,8 @@
         bottom:-10px;
         width:50.7%;
         @include transform(rotate(-9deg));
+        background-size:cover;
+        background-repeat:no-repeat;
         @media (max-width:1000px){
             width:80%;
         }
